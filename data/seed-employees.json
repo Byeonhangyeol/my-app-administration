@@ -1,0 +1,809 @@
+{
+  "notice": "이 파일의 이름과 사번은 모두 가명이며 실제 직원과 관계가 없습니다. 실제 인사정보를 넣지 마세요.",
+  "employees": [
+    {
+      "id": "T00101",
+      "name": "가명직원01"
+    },
+    {
+      "id": "T00102",
+      "name": "가명직원02"
+    },
+    {
+      "id": "T00103",
+      "name": "가명직원03"
+    },
+    {
+      "id": "T00104",
+      "name": "가명직원04"
+    },
+    {
+      "id": "T00105",
+      "name": "가명직원05"
+    },
+    {
+      "id": "T00106",
+      "name": "가명직원06"
+    },
+    {
+      "id": "T00107",
+      "name": "가명직원07"
+    },
+    {
+      "id": "T00108",
+      "name": "가명직원08"
+    },
+    {
+      "id": "T00109",
+      "name": "가명직원09"
+    },
+    {
+      "id": "T00110",
+      "name": "가명직원10"
+    },
+    {
+      "id": "T00111",
+      "name": "가명직원11"
+    },
+    {
+      "id": "T00112",
+      "name": "가명직원12"
+    },
+    {
+      "id": "T00113",
+      "name": "가명직원13"
+    },
+    {
+      "id": "T00114",
+      "name": "가명직원14"
+    },
+    {
+      "id": "T00115",
+      "name": "가명직원15"
+    },
+    {
+      "id": "T00116",
+      "name": "가명직원16"
+    },
+    {
+      "id": "T00117",
+      "name": "가명직원17"
+    },
+    {
+      "id": "T00118",
+      "name": "가명직원18"
+    },
+    {
+      "id": "T00119",
+      "name": "가명직원19"
+    },
+    {
+      "id": "T00120",
+      "name": "가명직원20"
+    },
+    {
+      "id": "T00121",
+      "name": "가명직원21"
+    },
+    {
+      "id": "T00122",
+      "name": "가명직원22"
+    },
+    {
+      "id": "T00123",
+      "name": "가명직원23"
+    },
+    {
+      "id": "T00124",
+      "name": "가명직원24"
+    },
+    {
+      "id": "T00125",
+      "name": "가명직원25"
+    },
+    {
+      "id": "T00126",
+      "name": "가명직원26"
+    },
+    {
+      "id": "T00127",
+      "name": "가명직원27"
+    },
+    {
+      "id": "T00128",
+      "name": "가명직원28"
+    },
+    {
+      "id": "T00129",
+      "name": "가명직원29"
+    },
+    {
+      "id": "T00130",
+      "name": "가명직원30"
+    }
+  ],
+  "events": [
+    {
+      "id": "EV0001",
+      "employeeId": "T00101",
+      "kind": "hire",
+      "effectiveDate": "2019-03-01",
+      "endDate": null,
+      "dept": "병동A",
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0002",
+      "employeeId": "T00101",
+      "kind": "leave_start",
+      "effectiveDate": "2026-07-30",
+      "endDate": "2026-10-27",
+      "dept": null,
+      "leaveType": "출산휴가",
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0003",
+      "employeeId": "T00101",
+      "kind": "leave_start",
+      "effectiveDate": "2026-10-28",
+      "endDate": null,
+      "dept": null,
+      "leaveType": "육아휴직",
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0004",
+      "employeeId": "T00102",
+      "kind": "hire",
+      "effectiveDate": "2020-04-01",
+      "endDate": null,
+      "dept": "외래",
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0005",
+      "employeeId": "T00102",
+      "kind": "leave_start",
+      "effectiveDate": "2026-03-01",
+      "endDate": "2026-03-31",
+      "dept": null,
+      "leaveType": "병가",
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0006",
+      "employeeId": "T00102",
+      "kind": "leave_start",
+      "effectiveDate": "2026-06-01",
+      "endDate": "2026-12-31",
+      "dept": null,
+      "leaveType": "육아휴직",
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0007",
+      "employeeId": "T00103",
+      "kind": "hire",
+      "effectiveDate": "2017-05-01",
+      "endDate": null,
+      "dept": "중환자실",
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0008",
+      "employeeId": "T00103",
+      "kind": "leave_start",
+      "effectiveDate": "2025-01-01",
+      "endDate": null,
+      "dept": null,
+      "leaveType": "병가",
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0009",
+      "employeeId": "T00103",
+      "kind": "return",
+      "effectiveDate": "2025-06-01",
+      "endDate": null,
+      "dept": null,
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0010",
+      "employeeId": "T00104",
+      "kind": "hire",
+      "effectiveDate": "2021-09-01",
+      "endDate": null,
+      "dept": "응급실",
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0011",
+      "employeeId": "T00104",
+      "kind": "leave_start",
+      "effectiveDate": "2026-01-01",
+      "endDate": "2026-10-27",
+      "dept": null,
+      "leaveType": "병가",
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0012",
+      "employeeId": "T00104",
+      "kind": "return",
+      "effectiveDate": "2026-10-28",
+      "endDate": null,
+      "dept": null,
+      "leaveType": null,
+      "source": "auto",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0013",
+      "employeeId": "T00104",
+      "kind": "leave_start",
+      "effectiveDate": "2026-10-28",
+      "endDate": null,
+      "dept": null,
+      "leaveType": "육아휴직",
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0014",
+      "employeeId": "T00105",
+      "kind": "hire",
+      "effectiveDate": "2018-02-01",
+      "endDate": null,
+      "dept": "외래",
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0015",
+      "employeeId": "T00105",
+      "kind": "transfer",
+      "effectiveDate": "2027-03-01",
+      "endDate": null,
+      "dept": "수술실",
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0016",
+      "employeeId": "T00105",
+      "kind": "leave_start",
+      "effectiveDate": "2026-12-01",
+      "endDate": null,
+      "dept": null,
+      "leaveType": "육아휴직",
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0017",
+      "employeeId": "T00106",
+      "kind": "hire",
+      "effectiveDate": "2022-06-01",
+      "endDate": null,
+      "dept": "병동B",
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0018",
+      "employeeId": "T00106",
+      "kind": "transfer",
+      "effectiveDate": "2026-10-28",
+      "endDate": null,
+      "dept": "수술실",
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0019",
+      "employeeId": "T00106",
+      "kind": "leave_start",
+      "effectiveDate": "2026-10-28",
+      "endDate": null,
+      "dept": null,
+      "leaveType": "육아휴직",
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0020",
+      "employeeId": "T00107",
+      "kind": "hire",
+      "effectiveDate": "2016-11-01",
+      "endDate": null,
+      "dept": "병동A",
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0021",
+      "employeeId": "T00107",
+      "kind": "leave_start",
+      "effectiveDate": "2026-10-01",
+      "endDate": null,
+      "dept": null,
+      "leaveType": "병가",
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0022",
+      "employeeId": "T00108",
+      "kind": "hire",
+      "effectiveDate": "2015-01-01",
+      "endDate": null,
+      "dept": "응급실",
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0023",
+      "employeeId": "T00108",
+      "kind": "termination",
+      "effectiveDate": "2026-10-01",
+      "endDate": null,
+      "dept": null,
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0024",
+      "employeeId": "T00109",
+      "kind": "hire",
+      "effectiveDate": "2014-07-01",
+      "endDate": null,
+      "dept": "병동B",
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0025",
+      "employeeId": "T00109",
+      "kind": "termination",
+      "effectiveDate": "2026-10-01",
+      "endDate": null,
+      "dept": null,
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0026",
+      "employeeId": "T00109",
+      "kind": "return",
+      "effectiveDate": "2026-10-05",
+      "endDate": null,
+      "dept": null,
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0027",
+      "employeeId": "T00110",
+      "kind": "hire",
+      "effectiveDate": "2026-11-01",
+      "endDate": null,
+      "dept": "응급실",
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0028",
+      "employeeId": "T00111",
+      "kind": "hire",
+      "effectiveDate": "2020-08-01",
+      "endDate": null,
+      "dept": "중환자실",
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0029",
+      "employeeId": "T00111",
+      "kind": "leave_start",
+      "effectiveDate": "2026-10-01",
+      "endDate": "2026-10-31",
+      "dept": null,
+      "leaveType": "병가",
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0030",
+      "employeeId": "T00111",
+      "kind": "leave_start",
+      "effectiveDate": "2026-10-15",
+      "endDate": "2026-12-31",
+      "dept": null,
+      "leaveType": "육아휴직",
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0031",
+      "employeeId": "T00112",
+      "kind": "hire",
+      "effectiveDate": "2019-10-01",
+      "endDate": null,
+      "dept": "수술실",
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0032",
+      "employeeId": "T00112",
+      "kind": "leave_start",
+      "effectiveDate": "2026-09-01",
+      "endDate": "2026-10-27",
+      "dept": null,
+      "leaveType": "병가",
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0033",
+      "employeeId": "T00113",
+      "kind": "hire",
+      "effectiveDate": "2010-03-01",
+      "endDate": null,
+      "dept": "외래",
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0034",
+      "employeeId": "T00113",
+      "kind": "termination",
+      "effectiveDate": "2025-02-28",
+      "endDate": null,
+      "dept": null,
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0035",
+      "employeeId": "T00114",
+      "kind": "hire",
+      "effectiveDate": "2018-12-01",
+      "endDate": null,
+      "dept": "병동A",
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0036",
+      "employeeId": "T00114",
+      "kind": "transfer",
+      "effectiveDate": "2026-05-01",
+      "endDate": null,
+      "dept": "병동A",
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0037",
+      "employeeId": "T00114",
+      "kind": "transfer",
+      "effectiveDate": "2026-05-01",
+      "endDate": null,
+      "dept": "병동B",
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0038",
+      "employeeId": "T00115",
+      "kind": "hire",
+      "effectiveDate": "2023-01-01",
+      "endDate": null,
+      "dept": "외래",
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0039",
+      "employeeId": "T00115",
+      "kind": "leave_start",
+      "effectiveDate": "2026-10-28",
+      "endDate": "2026-10-28",
+      "dept": null,
+      "leaveType": "병가",
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0040",
+      "employeeId": "T00116",
+      "kind": "hire",
+      "effectiveDate": "2016-05-01",
+      "endDate": null,
+      "dept": "병동A",
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0041",
+      "employeeId": "T00117",
+      "kind": "hire",
+      "effectiveDate": "2017-06-01",
+      "endDate": null,
+      "dept": "병동B",
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0042",
+      "employeeId": "T00118",
+      "kind": "hire",
+      "effectiveDate": "2018-07-01",
+      "endDate": null,
+      "dept": "외래",
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0043",
+      "employeeId": "T00118",
+      "kind": "transfer",
+      "effectiveDate": "2025-04-01",
+      "endDate": null,
+      "dept": "중환자실",
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0044",
+      "employeeId": "T00119",
+      "kind": "hire",
+      "effectiveDate": "2019-08-01",
+      "endDate": null,
+      "dept": "중환자실",
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0045",
+      "employeeId": "T00120",
+      "kind": "hire",
+      "effectiveDate": "2020-09-01",
+      "endDate": null,
+      "dept": "응급실",
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0046",
+      "employeeId": "T00120",
+      "kind": "leave_start",
+      "effectiveDate": "2026-02-01",
+      "endDate": "2026-02-28",
+      "dept": null,
+      "leaveType": "병가",
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0047",
+      "employeeId": "T00121",
+      "kind": "hire",
+      "effectiveDate": "2021-10-01",
+      "endDate": null,
+      "dept": "수술실",
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0048",
+      "employeeId": "T00121",
+      "kind": "transfer",
+      "effectiveDate": "2025-04-01",
+      "endDate": null,
+      "dept": "병동A",
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0049",
+      "employeeId": "T00122",
+      "kind": "hire",
+      "effectiveDate": "2022-11-01",
+      "endDate": null,
+      "dept": "병동A",
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0050",
+      "employeeId": "T00123",
+      "kind": "hire",
+      "effectiveDate": "2023-12-01",
+      "endDate": null,
+      "dept": "병동B",
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0051",
+      "employeeId": "T00124",
+      "kind": "hire",
+      "effectiveDate": "2012-01-01",
+      "endDate": null,
+      "dept": "외래",
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0052",
+      "employeeId": "T00124",
+      "kind": "transfer",
+      "effectiveDate": "2025-04-01",
+      "endDate": null,
+      "dept": "중환자실",
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0053",
+      "employeeId": "T00125",
+      "kind": "hire",
+      "effectiveDate": "2013-02-01",
+      "endDate": null,
+      "dept": "중환자실",
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0054",
+      "employeeId": "T00125",
+      "kind": "leave_start",
+      "effectiveDate": "2026-02-01",
+      "endDate": "2026-02-28",
+      "dept": null,
+      "leaveType": "병가",
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0055",
+      "employeeId": "T00126",
+      "kind": "hire",
+      "effectiveDate": "2014-03-01",
+      "endDate": null,
+      "dept": "응급실",
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0056",
+      "employeeId": "T00127",
+      "kind": "hire",
+      "effectiveDate": "2015-04-01",
+      "endDate": null,
+      "dept": "수술실",
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0057",
+      "employeeId": "T00127",
+      "kind": "transfer",
+      "effectiveDate": "2025-04-01",
+      "endDate": null,
+      "dept": "병동A",
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0058",
+      "employeeId": "T00128",
+      "kind": "hire",
+      "effectiveDate": "2016-05-01",
+      "endDate": null,
+      "dept": "병동A",
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0059",
+      "employeeId": "T00129",
+      "kind": "hire",
+      "effectiveDate": "2017-06-01",
+      "endDate": null,
+      "dept": "병동B",
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0060",
+      "employeeId": "T00130",
+      "kind": "hire",
+      "effectiveDate": "2018-07-01",
+      "endDate": null,
+      "dept": "외래",
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0061",
+      "employeeId": "T00130",
+      "kind": "transfer",
+      "effectiveDate": "2025-04-01",
+      "endDate": null,
+      "dept": "중환자실",
+      "leaveType": null,
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    },
+    {
+      "id": "EV0062",
+      "employeeId": "T00130",
+      "kind": "leave_start",
+      "effectiveDate": "2026-02-01",
+      "endDate": "2026-02-28",
+      "dept": null,
+      "leaveType": "병가",
+      "source": "actual",
+      "recordedAt": "2026-10-23"
+    }
+  ]
+}
