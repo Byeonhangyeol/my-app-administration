@@ -50,3 +50,5 @@ legacy/
 *.xlsx
 *.xlsm
 *.csv
+
+.vercel
